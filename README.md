@@ -14,7 +14,7 @@ You can install the required packages via pip:
 
 ```bash
 pip install ultralytics torch
-
+```
 
 
 1. **Model Loading**:
