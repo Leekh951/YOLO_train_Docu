@@ -26,11 +26,12 @@ pip install ultralytics torch
      - This line loads a pre-trained YOLOv8 model using the pre-trained weights file (`yolov8l.pt`).
      - You can use different versions of YOLO models (e.g., `yolov8s.pt`, `yolov8m.pt`, etc.) by specifying the corresponding `.pt` file.
      - The YOLO model file (`.pt`) typically contains the complete model architecture and pre-trained weights.
-
+     - If you want to use a non pre-trained model, use a `.yaml` file
+       
    - **RT-DETR Model**:
      ```python
      model = RTDETR('rtdetr-resnet50.yaml')
      ```
      - This line loads the RT-DETR model based on a configuration file (`rtdetr-resnet50.yaml`).
      - The configuration file defines the model architecture (e.g., backbone, number of layers, etc.) and other settings.
-     - You need to ensure
+     
